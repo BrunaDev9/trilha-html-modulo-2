@@ -8,6 +8,11 @@
     <title>Amigo do cão</title>
 
     <link rel="stylesheet" href="base.css">
+    <style>
+        button {
+            padding-inline-start: 10px 10px; /* 5px de preenchimento superior e inferior, 10px de preenchimento esquerda e direita */
+        }
+    </style>
     
 
 </head>
@@ -30,23 +35,44 @@
             <div class="header">
              
                 <!-- Aqui vai o seu header -->
-                <img src="https://lh3.googleusercontent.com/p/AF1QipN8wxJmvVaefSA8rNBisUGDohwruvN4Tlt16ljn=w284-h284-n-k-rw-no-v1" alt="imagen da faixada da clinica">
+                <img src="clinica.jpg" alt="imagen da faixada da clinica">
             </div>
     
             <div class="content">
         
                 <!-- Aqui vai o seu conteúdo -->
-               <h1>Quem somos</h1>
-               <p>A amigo do cão Hospital Veterinário é considerado um dos <strong>Melhores do país</strong> e se destaca não apenas pelo pioneirismo e excelência no atendimento clínico, cirúrgico e diagnóstico aos pequenos animais, mas também pela sua visão empreendedora e moderna infraestrutura, com serviços e equipamentos únicos no Brasil.</p> <br>
-               <p>Liderada por uma equipe de mais de 100 médicos veterinários altamente capacitados e que amam o que fazem, a Rede Amigo do cão está presente em algumas das principais capitais do país, incluindo Rio de Janeiro, São Paulo, Recife, Maceió e São Luís.</p> <br>
-               <p>A amigo do cão dispõe <strong>atendimento 24 horas em diversas especialidades médicas</strong>. Entre elas, anestesiologia, cirurgia veterinária, oncologia, radiologia, dermatologia, fisioterapia, nutrição, cardiologia, odontologia, ultrassonografia, colonoscopia e muitas outras.</p> <br>
-               <p>A amigo do cão é o que nos diferencia dos outros hospitais. Aqui, colocamos a saúde do seu pet em primeiro lugar, do pré ao pós-atendimento.</p> <br>
-               <h2>INFRAESTRUTURA</h2>
-               <p>Nossas unidades foram projetadas para oferecer um atendimento diferenciado e de qualidade aos animais e seus tutores, com conforto e segurança.</p> <br>
-               <p>Pensando nisso, disponibilizamos salas exclusivas para felinos a fim de garantir um tratamento mais especializado e menos estressante aos gatos.</p> <br>
-               <p>Com suas modernas instalações e equipamento, A amigo do cão é referência nacional quando o assunto é infraestrutura hospitalar.</p> <br>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/0STHK4rAIHg?si=Jdh7Ylpie0quBzB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <form name="signup" autocomplete="on" onreset="alert('Digite sua mensagem novamente')" onsubmit="alert('Agradeçemos seu feedback &#128522;' )">;
+               
+                    <h1>Fale Conosco</h1>
+                  
+                     
+                     
+                  
+                    <select name="role">
+                        <option selected value="">Selecione o Assunto</option> <br>
+                        <option  value="duvidas">Duvidas</option>
+                        <option value="reclamacoes">Reclamações</option>
+                        <option value="criticas">Criticas</option>
+                        <option value="elogio">Elogios</option>
+                      </select> <br>
+                      
+                      Nome: <input type="text" name="name" /><br >
+                      Idade: <input type="number" name="age" /><br >
+                  
 
+                      <label> Deixe Aqui Sua Mensagem:</label> <br>
+                      <textarea rows="10" cols="55" name="message"></textarea> 
+                      <button type="submit">Enviar</button> 
+                      <button type="reset">Limpar</button> 
+                     
+                      
+                     
+                    
+                      
+                     
+                    </form>
+              
+                 
 
             </div>
     
